@@ -2,12 +2,12 @@
 - hosts: all
   tasks:
   
-  - name: stop an application pool
+  - name: Detener WCOMPENSAR
     win_iis_webapppool:
       name: WCOMPENSAR
       state: stopped
 
-  - name: stop an application pool
+  - name: Detener WCONSULTAS
     win_iis_webapppool:
       name: WCONSULTAS
       state: stopped
