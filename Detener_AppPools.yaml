@@ -1,0 +1,13 @@
+
+#Detener AppPools de IIS Servidores ISICOM
+
+- name: stop an application pool
+  win_iis_webapppool:
+    name: WCOMPENSAR
+    state: stopped
+
+
+- name: stop an application pool
+  win_iis_webapppool:
+    name: WCONSULTAS
+    state: stopped

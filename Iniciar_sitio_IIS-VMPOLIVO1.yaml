@@ -1,0 +1,3 @@
+#Subir sitio de contingencia VMPOLIVO1
+
+- win_shell: C:\Tools\test_ansible\start_site.ps1 >> C:\Tools\test_ansible\somelog.txt
