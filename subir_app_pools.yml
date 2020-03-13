@@ -2,12 +2,12 @@
 - hosts: all
   tasks:
   
-  - name: stop an application pool
+  - name: Subir WCOMPENSAR
     win_iis_webapppool:
       name: WCOMPENSAR
       state: started
 
-  - name: stop an application pool
+  - name: Subir WCONSULTAS
     win_iis_webapppool:
       name: WCONSULTAS
       state: started
