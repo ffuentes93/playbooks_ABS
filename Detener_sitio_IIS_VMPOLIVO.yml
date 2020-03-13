@@ -1,6 +1,6 @@
 ---
 -hosts: all
- tasks
+ tasks:
  
   -name: Subir sitio IIS
    win_shell: C:\Tools\test_ansible\stop_site.ps1 
