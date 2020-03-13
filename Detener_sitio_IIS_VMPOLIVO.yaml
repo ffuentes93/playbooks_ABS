@@ -1,4 +1,2 @@
 #Detener sitio de contingencia VMPOLIVO1
-
-
-- win_shell: C:\Tools\test_ansible\stop_site.ps1 >> C:\Tools\test_ansible\somelog.txt
+- win_shell: C:\Tools\test_ansible\stop_site.ps1 
