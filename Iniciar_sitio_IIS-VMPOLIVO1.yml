@@ -1,0 +1,6 @@
+---
+-hosts: all
+ tasks
+ 
+  -name: iniciar sitio IIS
+   win_shell: C:\Tools\test_ansible\start_site.ps1
